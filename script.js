@@ -14,7 +14,7 @@ window.addEventListener('scroll', () => {
 function sendMail() {
     const name = prompt("What's your/Company name?");
     if (name && name.trim()) {
-      const email = "ranjeet@example.com";
+      const email = "info@aidmas.com";
       const rawSubject = `NON-DISCLOSURE AGREEMENT between AidMas & ${name.trim()}`;
       const encodedSubject = encodeURIComponent(rawSubject);
       const mailtoLink = `mailto:${email}?subject=${encodedSubject}`;
