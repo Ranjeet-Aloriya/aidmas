@@ -2,7 +2,7 @@ const navbar = document.getElementById('navbar');
 
 // Listen for scroll events
 window.addEventListener('scroll', () => {
-    if (window.scrollY > 500) {
+    if (window.scrollY > 100) {
         navbar.classList.add('show');
     } else {
         navbar.classList.remove('show');
