@@ -1007,19 +1007,20 @@ textarea {
   
   .sub-title {
     text-align: center;
-    font-size: 0.75rem;
+    font-size: 1rem;
     color: #ffc448;
     font-style: italic;
     margin-bottom: 4rem;
+    margin-top: 1rem
   }
 
   .sub-title1 {
     text-align: left;
-    font-size: 0.75rem;
+    font-size: 1rem;
     color: #ffc448;
     font-style: italic;
     margin-bottom: 1rem;
-    margin-top: -4.5rem;
+    margin-top: -3rem;
   }
 
   .hero {
@@ -1041,4 +1042,11 @@ textarea {
 .avatar.bottom-right { bottom: 48%; right: 10%; }
 .avatar.bottom-center{ bottom: 15%; left: 15%; transform: translateX(-50%); }
 .avatar.bottom-center1{ bottom: 15%; right: 0%; transform: translateX(-50%); }
+}
+
+@media (min-width: 768px) {
+  .hero {
+    flex-direction: row;
+    padding: 6rem;
+  }
 }
