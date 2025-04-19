@@ -973,7 +973,7 @@ textarea {
 .hamburger,
 .close-icon {
   display: none;
-  font-size: 0px;
+  font-size: 28px;
   color: white;
   cursor: pointer;
   align-items: right;
