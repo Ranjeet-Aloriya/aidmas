@@ -1011,7 +1011,7 @@ textarea {
     color: #ffc448;
     font-style: italic;
     margin-bottom: 4rem;
-    margin-top: 1rem
+    margin-top: 1rem;
   }
 
   .sub-title1 {
@@ -1020,7 +1020,7 @@ textarea {
     color: #ffc448;
     font-style: italic;
     margin-bottom: 1rem;
-    margin-top: -3rem;
+    margin-top: -3.5rem;
   }
 
   .hero {
