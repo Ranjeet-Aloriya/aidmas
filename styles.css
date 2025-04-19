@@ -785,7 +785,6 @@ form {
   display: flex;
   gap: 2rem;
   margin-bottom: 20px;
-  margin-right: -1.9rem;
 }
 
 .input-row input {
@@ -801,7 +800,6 @@ input[type="email"],
 input[type="number"],
 textarea {
   width: 100%;
-  padding: 14px;
   font-size: 16px;
   margin-bottom: 20px;
   border-radius: 8px;
