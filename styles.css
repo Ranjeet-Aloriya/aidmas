@@ -517,12 +517,13 @@ ul {
   display: inline-block;
   margin-top: 10px;
   font-weight: bold;
-  color: #0077cc;
+  color: #de0f3f;
   text-decoration: none;
 }
 
 .read-more:hover {
   text-decoration: underline;
+  color: #ffc448;
 }
 
 .blog-thumbnails {
