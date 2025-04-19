@@ -1015,6 +1015,38 @@ textarea {
     display: flex;
   }
 
+    .title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: -1rem;
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  
+  .sub-title {
+    text-align: center;
+    font-size: 0.7rem;
+    color: #ffc448;
+    font-style: italic;
+    margin-bottom: 4rem;
+  }
+
+  .sub-title1 {
+    text-align: left;
+    font-size: 0.7rem;
+    color: #ffc448;
+    font-style: italic;
+    margin-bottom: 1rem;
+    margin-top: -5rem;
+  }
+
   .hero {
   display: flex;
   flex-direction: column;
