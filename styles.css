@@ -1017,4 +1017,17 @@ textarea {
     display: flex;
   }
 
+  .hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem 2rem;
+  background-image: url('bg-header1.png');
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 }
