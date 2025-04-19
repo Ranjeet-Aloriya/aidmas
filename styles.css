@@ -1028,4 +1028,11 @@ textarea {
   background-repeat: no-repeat;
 }
 
+.avatar.top-left     { top: 27%; left: 20%; }
+.avatar.bottom-left  { bottom: 48%; left: 10%; }
+.avatar.top-right    { top: 27%; right: 20%; }
+.avatar.bottom-right { bottom: 48%; right: 10%; }
+.avatar.bottom-center{ bottom: 15%; left: 15%; transform: translateX(-50%); }
+.avatar.bottom-center1{ bottom: 15%; right: 0%; transform: translateX(-50%); }
+
 }
