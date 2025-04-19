@@ -1022,7 +1022,7 @@ textarea {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 100%;
   padding: 2rem 2rem;
   background-image: url('bg-header1.png');
   background-size: 100%;
