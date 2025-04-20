@@ -251,3 +251,14 @@ window.addEventListener('popstate', () => {
     hamburger.style.display = 'block';
     closeIcon.style.display = 'none';
   });
+
+document.querySelectorAll('.nav-link').forEach(link => {
+  link.addEventListener('click', () => {
+    const navMenu = document.querySelector('ul');
+    const closeIcon = document.querySelector('.close-icon'); // if you're using a close icon
+    if (window.innerWidth <= 768) {
+      navMenu.classList.remove('show');
+      if (closeIcon) closeIcon.style.display = 'none';
+    }
+  });
+});
