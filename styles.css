@@ -913,7 +913,7 @@ textarea {
     padding: 1rem;
   }
 
-  ul.show {
+  #navbar ul.show {
     display: flex;
   }
     .title{
