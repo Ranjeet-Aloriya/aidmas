@@ -917,36 +917,6 @@ textarea {
     display: flex;
   }
 
-    .features {
-    flex-direction: column;
-    align-items: center;
-    padding: 0 1rem;
-    width: 100%;
-  }
-
-  .features ul {
-    margin: 0;
-    padding: 1rem;
-    width: 100%;
-    border-left: none;
-    border-top: 5px solid #de0f3f;
-    border-radius: 0.8rem;
-    background: #ffc448;
-    box-sizing: border-box;
-  }
-
-  .features li {
-    width: 100%;
-    margin-bottom: 0.8rem;
-    text-align: left;
-    font-size: 1rem;
-    background: #918d8f;
-    padding: 1rem;
-    border-left: 5px solid #de0f3f;
-    border-radius: 0.5rem;
-    box-sizing: border-box;
-  }
-
     .title{
     font-size: 1.75rem;
     font-weight: bold;
