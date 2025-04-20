@@ -976,4 +976,22 @@ textarea {
     flex-direction: row;
     padding: 6rem;
   }
+
+  #navbar {
+        align-items: flex-start;
+        padding: 15px;
+    }
+  
+    ul {
+        flex-direction: column;
+        width: 100%;
+        padding-left: 0;
+    }
+  
+    .nav-link {
+        padding: 10px 0;
+        width: 100%;
+        text-align: left;
+        font-family: 'Alegreya SC', serif !important;
+    }
 }
