@@ -916,6 +916,41 @@ textarea {
   #navbar ul.show {
     display: flex;
   }
+
+    .features {
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    padding: 0 1rem;
+  }
+
+  .features ul {
+    margin: 0;
+    padding: 1rem;
+    border-left: none;
+    border-top: 5px solid #de0f3f;
+    width: 100%;
+    border-radius: 0.8rem;
+    background: #ffc448;
+  }
+
+  .features li {
+    width: 100%;
+    font-size: 1rem;
+    margin-bottom: 0.8rem;
+    padding: 0.8rem;
+    text-align: left;
+    border-left: 5px solid #de0f3f;
+    background: #918d8f;
+    border-radius: 0.5rem;
+  }
+
+  .features h3 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
     .title{
     font-size: 1.75rem;
     font-weight: bold;
@@ -974,36 +1009,5 @@ textarea {
   .hero {
     flex-direction: row;
     padding: 6rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .about {
-    padding: 1rem;
-    text-align: center;
-  }
-
-  .about-content p {
-    margin: 1rem 0;
-    font-size: 1rem;
-    text-align: left;
-  }
-
-  .features{
-    list-style: lower-latin;
-  }
-
-  .features ul {
-    background: #ffc448;
-  }
-
-  .features li {
-    background: #918d8f;
-    text-align: justify;
-  }
-
-  .why-aidmas h3 {
-    font-size: 1.3rem;
-    margin-top: 2rem;
   }
 }
