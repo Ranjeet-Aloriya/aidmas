@@ -841,29 +841,7 @@ textarea {
   .about-content p {
     margin: 0 1rem;
   }
-
-  .features ul {
-    padding: 1rem;
-    margin: 0 auto;
-    background: #ffc448;
-    border-left: none;
-    border-top: 5px solid #de0f3f;
-    border-radius: 1rem;
-    width: 100%;
-    max-width: 100%;
-    box-sizing: border-box;
-  }
-
-  .features li {
-    background: #918d8f;
-    padding: 0.8rem;
-    font-size: 1rem;
-    border-left: 5px solid #de0f3f;
-    border-radius: 0.5rem;
-    margin-bottom: 0.6rem;
-    text-align: left;
-  }
-
+  
   .tile {
     width: 100%;
   }
@@ -890,95 +868,6 @@ textarea {
     flex-direction: column;
   }
 }
-
-
-/* Mobile Screens */
-@media (max-width: 600px) {
-  .main-name {
-    font-size: 2.5rem;
-  }
-
-  .university {
-    font-size: 1.3rem;
-  }
-
-  .title,
-  .services-title {
-    font-size: 1.8rem;
-  }
-
-  .testimonial-title {
-    font-size: 2rem;
-  }
-
-  .section-title {
-    font-size: 2rem;
-  }
-
-  .blog-title {
-    font-size: 1.3rem;
-  }
-
-  .blog-meta {
-    font-size: 0.8rem;
-  }
-
-  .chat-header,
-  .chat-input {
-    padding: 1rem;
-  }
-
-  .chat-widget {
-    max-height: 80vh;
-  }
-
-  .top-right-button button,
-  .say-hello-button {
-    padding: 10px 16px;
-    font-size: 0.9rem;
-  }
-
-  .bottom-left-button button {
-    width: 100%;
-    text-align: center;
-  }
-
-  .nav-link {
-    font-size: 18px;
-  }
-
-  .avatar {
-    width: 45px;
-    height: 45px;
-  }
-
-  .testimonial-image {
-    width: 80px;
-    height: 80px;
-  }
-  .features ul {
-    padding: 1rem;
-    margin: 0 auto;
-    background: #ffc448;
-    border-left: none;
-    border-top: 5px solid #de0f3f;
-    border-radius: 1rem;
-    width: 100%;
-    max-width: 100%;
-    box-sizing: border-box;
-  }
-
-  .features li {
-    background: #918d8f;
-    padding: 0.8rem;
-    font-size: 1rem;
-    border-left: 5px solid #de0f3f;
-    border-radius: 0.5rem;
-    margin-bottom: 0.6rem;
-    text-align: left;
-  }
-}
-
 /* Hide hamburger & close by default */
 .hamburger,
 .close-icon {
@@ -1022,35 +911,11 @@ textarea {
     left: 0;
     display: none;
     padding: 1rem;
-    /* z-index: 9; */
   }
 
-  #navbar ul.show {
+  ul.show {
     display: flex;
   }
-
-  .features ul {
-    padding: 1rem;
-    margin: 0 auto;
-    background: #ffc448;
-    border-left: none;
-    border-top: 5px solid #de0f3f;
-    border-radius: 1rem;
-    width: 100%;
-    max-width: 100%;
-    box-sizing: border-box;
-  }
-
-  .features li {
-    background: #918d8f;
-    padding: 0.8rem;
-    font-size: 1rem;
-    border-left: 5px solid #de0f3f;
-    border-radius: 0.5rem;
-    margin-bottom: 0.6rem;
-    text-align: left;
-  }
-
     .title{
     font-size: 1.75rem;
     font-weight: bold;
