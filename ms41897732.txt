@@ -1,0 +1,5 @@
+﻿{
+  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
+  "Domain": "aidmas.com",
+  "Id": "8653d47d-bf5e-4207-aedd-8fcf4206935c"
+}
