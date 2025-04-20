@@ -968,7 +968,7 @@ textarea {
     display: none;
   }
 
-  ul {
+  #navbar ul {
     flex-direction: column;
     background: linear-gradient(
     to top,
