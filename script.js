@@ -237,8 +237,9 @@ window.addEventListener('popstate', () => {
 });
 
   const hamburger = document.getElementById('hamburger');
+  const navLinks = document.querySelector('#navbar ul');
   const closeIcon = document.getElementById('closeIcon');
-  const navLinks = document.querySelector('ul');
+  const links = document.querySelectorAll('.nav-link');
 
   hamburger.addEventListener('click', () => {
     navLinks.classList.add('show');
@@ -250,4 +251,13 @@ window.addEventListener('popstate', () => {
     navLinks.classList.remove('show');
     hamburger.style.display = 'block';
     closeIcon.style.display = 'none';
+  });
+
+  // Auto-close navbar when a nav link is clicked
+  links.forEach(link => {
+    link.addEventListener('click', () => {
+      navLinks.classList.remove('show');
+      hamburger.style.display = 'block';
+      closeIcon.style.display = 'none';
+    });
   });
