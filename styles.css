@@ -905,6 +905,11 @@ body {
     ul {
         display:grid;
       }
+
+    .features ul{
+        margin-left:0.2rem;
+        margin-right:0.2rem;
+    }
   
     #navbar ul {
       flex-direction: column;
